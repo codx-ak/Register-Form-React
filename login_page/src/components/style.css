@@ -4,10 +4,10 @@
     display: flex;
     flex-direction:row;
     gap: 1rem;
-    border: 1px solid rgba(128, 128, 128, 0.411);
+    border: 1px solid rgba(128, 128, 128, 0.267);
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: 5px 5px 5px rgba(44, 44, 44, 0.274);
+    box-shadow: 5px 5px 5px rgba(44, 44, 44, 0.151);
 }
 h4{
     margin: 20px 0 !important;

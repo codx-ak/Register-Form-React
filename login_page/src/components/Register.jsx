@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Button,Checkbox,FormControlLabel,TextField, Typography } from '@mui/material'
 import './style.css'
 import SideImg from '../assets/th.jpg'
@@ -6,14 +6,10 @@ import { useForm } from 'react-hook-form'
 
 
 const Register = () => {
-  const [user,setUser]=useState()
+
   const {register,handleSubmit,formState:{errors}}=useForm()
   const onSubmit=(data)=>{
-    setUser({
-      name:data.name,
-      email:data.email,
-      password:data.psw
-    })
+    console.log(data);
   }
   return (
     <div className="Auth">
