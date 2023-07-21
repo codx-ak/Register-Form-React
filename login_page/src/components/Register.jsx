@@ -3,7 +3,7 @@ import { Button,Checkbox,FormControlLabel,TextField, Typography } from '@mui/mat
 import './style.css'
 import SideImg from '../assets/th.jpg'
 import { useForm } from 'react-hook-form'
-import Welcome from './Welcome'
+
 
 const Register = () => {
   const [user,setUser]=useState()
