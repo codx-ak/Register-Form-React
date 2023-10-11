@@ -1,6 +1,6 @@
 # React + Vite
 
-Live Link : https://codx-react-signup-page.netlify.app/
+Live Link : https://codx-signup.netlify.app
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
